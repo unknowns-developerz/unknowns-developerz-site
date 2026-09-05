@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#010709" />
+  <meta name="description" content="Privacy Policy for Time Manager by Unknowns Developerz." />
+  <title>Time Manager Privacy — Unknowns Developerz</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="matrix" aria-hidden="true"></canvas><div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-header"><div class="shell nav">
+    <a class="brand" href="../"><img src="../assets/logo.svg" alt="" /><span class="brand-copy"><strong>Unknowns Developerz</strong><span>Ideas × privacy × quieter software</span></span></a>
+    <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary navigation"><a href="../">Home</a><a href="../#products">Products</a><a class="active" href="./">Privacy</a><a href="../support/">Support</a><a href="mailto:unknowns.developerz@gmail.com">Contact</a></nav>
+  </div></header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="shell page-hero-grid">
+        <div class="reveal"><div class="eyebrow">Your privacy matters</div><h1>Time Manager<br><span>Privacy.</span></h1><p>Clear, human-readable information about what Time Manager uses, what stays on your device, and when cloud or AI services are involved.</p><div class="signal-strip">Effective 5 September 2026</div></div>
+        <div class="page-art reveal"><img src="../assets/privacy-cyber.webp" alt="Futuristic privacy-focused cyber workspace" /></div>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="shell policy-layout">
+        <aside class="policy-nav" aria-label="Privacy sections">
+          <a href="#summary">Summary</a><a href="#access">What we access</a><a href="#not-read">What we do not read</a><a href="#categorization">Smart categorization</a><a href="#ai">AI Insights</a><a href="#providers">Service providers</a><a href="#retention">Retention</a><a href="#security">Security</a><a href="#children">Children</a><a href="#changes">Changes</a><a href="#contact">Contact</a>
+        </aside>
+        <article class="policy-content">
+          <section id="summary" class="policy-section"><h2>1. Summary</h2><p>Time Manager is an Android screen-time awareness and planning app developed by Unknowns Developerz. Its core purpose is to show usage patterns, organize app activity into useful categories, generate optional AI-based reflections, and let users create time budgets.</p><div class="policy-note">The app is designed around usage metadata, not personal content. Time Manager does not need to read your messages, photos, files, passwords, or the contents displayed inside other apps.</div></section>
+
+          <section id="access" class="policy-section"><h2>2. What Time Manager accesses</h2><p>With Android Usage Access permission, Time Manager can read usage statistics made available by Android. Depending on the device and Android version, this can include:</p><ul><li>app/package names;</li><li>how long apps were used;</li><li>timestamps or usage events needed to calculate screen-time patterns;</li><li>derived category totals, daily totals, comparisons, and time-budget progress.</li></ul><p>These statistics are used to provide the Today, Insights, and Limits experiences.</p></section>
+
+          <section id="not-read" class="policy-section"><h2>3. What we do not read</h2><p>Time Manager is not designed to access the content inside your apps. We do not read:</p><ul><li>message or email contents;</li><li>photos, videos, or personal files;</li><li>passwords, form contents, or keystrokes;</li><li>the contents of your screen;</li><li>your contacts solely for the purpose of screen-time analytics.</li></ul><p>If a future feature requires a new type of data, this policy and the app's permission flow will be updated before that feature is relied upon.</p></section>
+
+          <section id="categorization" class="policy-section"><h2>4. Smart app categorization</h2><p>Time Manager groups apps into functional categories so that raw package usage becomes easier to understand. Known category mappings are cached and reused so the same app does not need to be classified repeatedly.</p><p>When an app is not already known, the app may send limited app metadata—such as the package name and application display name—to the Time Manager backend so that a category can be resolved. An AI service may be used for previously unknown apps. The resulting category mapping may be stored in the backend and locally cached for future requests.</p><div class="policy-note">Categorization is about identifying what an app is, not reading what you do inside it.</div></section>
+
+          <section id="ai" class="policy-section"><h2>5. AI Insights</h2><p>AI Insights are optional and user-triggered. The app does not need to generate an AI reflection every time you open Insights.</p><p>When you explicitly request an AI Insight, Time Manager may send the minimum usage summary needed to generate that response, such as aggregated screen-time totals, category-level usage, changes, trends, goals, or similar derived analytics. Personal message contents, photos, files, and screen contents are not required for this feature.</p></section>
+
+          <section id="providers" class="policy-section"><h2>6. Backend and service providers</h2><p>Some Time Manager features use hosted infrastructure and third-party services. The current architecture may involve:</p>
+            <table class="data-table"><thead><tr><th>Service</th><th>Purpose</th><th>Typical data involved</th></tr></thead><tbody>
+              <tr><td>Time Manager backend</td><td>Category resolution, AI feature coordination, operational checks</td><td>Requests needed for those features</td></tr>
+              <tr><td>OpenAI</td><td>Classification of previously unknown apps and user-requested AI Insights</td><td>Limited app metadata for categorization; aggregated usage context for requested insights</td></tr>
+              <tr><td>MongoDB Atlas</td><td>Backend storage of reusable app-category mappings and related operational data</td><td>Category mapping records and backend data required to operate the service</td></tr>
+            </tbody></table>
+            <p>Third-party services process information according to their applicable terms and privacy practices. We aim to send only the information necessary for the requested feature.</p>
+          </section>
+
+          <section id="retention" class="policy-section"><h2>7. Storage and retention</h2><p>Usage analytics needed by the app may be stored or cached locally on your device. Reusable app-category mappings may also be stored locally and in the backend so classification becomes faster and does not need to be repeated for every user or every launch.</p><p>We do not intentionally store the personal content types listed in section 3 because Time Manager does not need them for its core functionality.</p></section>
+
+          <section id="security" class="policy-section"><h2>8. Security</h2><p>We use reasonable technical measures intended to protect data transmitted to our backend and to limit unnecessary collection. No internet-connected system can be guaranteed to be perfectly secure, so we continuously aim to reduce the amount of data that needs to leave the device in the first place.</p></section>
+
+          <section id="children" class="policy-section"><h2>9. Children's privacy</h2><p>Time Manager is not designed as a service directed specifically to children under the minimum age required by applicable law. If you believe a child has provided information to us in a way that requires action, contact us using the address below.</p></section>
+
+          <section id="changes" class="policy-section"><h2>10. Changes to this policy</h2><p>We may update this policy when Time Manager's features, permissions, infrastructure, or legal requirements change. Material changes will be reflected on this page by updating the effective date.</p></section>
+
+          <section id="contact" class="policy-section"><h2>11. Contact</h2><p>For questions about Time Manager, privacy, data handling, or this policy:</p><p><a class="btn primary" href="mailto:unknowns.developerz@gmail.com">unknowns.developerz@gmail.com</a></p><p>Developer: Unknowns Developerz</p></section>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-inner"><div class="footer-brand"><img src="../assets/logo.svg" alt="" /><span>Unknowns Developerz</span></div><div class="footer-links"><a href="./">Privacy</a><a href="../support/">Support</a><a href="mailto:unknowns.developerz@gmail.com">Contact</a></div><div>© 2026 Unknowns Developerz</div></div></footer>
+  <script src="../app.js"></script>
+</body>
+</html>
